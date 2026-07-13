@@ -1,5 +1,4 @@
-
-FROM amazoncorretto:17
+FROM eclipse-temurin:17-jre-alpine
 LABEL project="learning"
 LABEL author="jitendra-singh"
 ADD target/spring-petclinic-4.0.0-SNAPSHOT.jar /spring-petclinic-4.0.0-SNAPSHOT.jar
